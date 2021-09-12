@@ -1,0 +1,119 @@
+#body1{
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+section{
+    background-image: url("illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    margin: 30px auto;
+    width: 450px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: .5px .5px 20px .3px hsl(224, 23%, 55%);
+}
+
+#header{
+    width: 400px;
+    height: 50px;
+    margin-top: 8em;
+    align-self: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+
+}
+.plan{
+    width: 300px;
+    align-self: center;
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.priceplan{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    padding: 1.2em .5em;
+    font-size: 1 rem;
+    border-radius: 1rem;
+    width: 300px;
+    
+    margin: 0 auto;
+}
+#annual{
+   margin-right: 3em; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+#annualhead{
+    padding-bottom: 0.3em;
+    font-size: 16px;
+    font-weight: 800;
+}
+#price{
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9em;
+}
+ #button{
+     font-size: 16px;
+     font-family:'Red Hat Display', sans-serif;
+     font-weight: 700;
+     align-self: center;
+     margin: 2em auto;
+     width: 320px;
+     height: 50px;
+     border-radius: .5em;
+     box-sizing: border-box;
+     box-shadow: 1px 4px 20px 1px hsla(224, 23%, 55%, 0.733); ;
+     color: white;
+     background-color: hsl(245, 75%, 52%);
+     border-color: blue;
+     text-align: center;
+     padding: 1em;
+     text-decoration: none;
+     transition: opacity 0.3s ease-in;
+     
+ }
+
+ #button:hover{
+     opacity: 0.7;
+ }
+
+ #cancel{
+     align-self: center;
+     margin: 0px auto;
+     color: hsl(224, 23%, 55%);
+     font-weight: 800;
+     text-decoration: none;
+ }
+ 
+ #cancel:hover{
+     color: black;
+ }
+
+ #attribution{
+     font-size: 40px;
+     margin-top: 0px;
+ }
+ @media (max-width: 375px){
+     section{
+        width: 95vh;
+        height: 100vh;
+        background-image: url("pattern-background-mobile.svg");
+        background-size: contain;
+     }
+ }
